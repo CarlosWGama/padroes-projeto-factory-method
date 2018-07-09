@@ -1,13 +1,7 @@
 package atividade.pagamentos;
 
-public class Boleto {
+public class Boleto extends FormaPagamento {
 
-	private double preco;
-	
-	public void setPreco(double preco) {
-		this.preco = preco;
-	}
-	
 	public void telaPagamento() {
 		/* Abre tela de pagamento para Boleto */
 	}
